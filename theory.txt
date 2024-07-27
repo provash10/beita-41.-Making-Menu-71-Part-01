@@ -1,0 +1,48 @@
+41. Making Menu 71 Part 01
+
+<link href="css/style.css" rel="stylesheet"/>
+==================================================
+Menu create korar jonno <ul> </ul> use korte hobe
+
+###Default
+ul#menu{
+    padding: 0;
+}
+
+============================================
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>41. Making Menu 71 Part 01</title>
+    <link href="css/style.css" rel="stylesheet"/>
+</head>
+<body>
+    <ul id="menu">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">HTML</a></li>
+        <li><a href="#">CSS</a></li>
+        <li><a href="#">JS</a></li>
+    </ul>
+</body>
+</html>
+=======================================
+ul#menu{
+    padding: 0;
+}
+ul#menu li{
+    display: inline;
+    /* float:left; */
+}
+
+ul#menu li a{
+    color: whitesmoke;
+    text-decoration: none;
+    background-color: blue;
+    padding: 10px 20px;
+}
+
+ul#menu li a:hover{
+    background-color: orange;
+}
